@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .scrollable-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
